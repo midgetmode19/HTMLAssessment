@@ -1,0 +1,24 @@
+.subjectHeader {
+  color: maroon;
+  font-family: sans-serif;
+}
+th {
+  font-weight: bold;
+  color: darkblue;
+  border-style: ridge;
+}
+table {
+  border-style: ridge;
+}
+td {
+    text-align: center;
+    border-style: ridge;
+}
+li {
+  list-style-type: square;
+}
+.hyperLink:hover {
+  background-color: navy;
+  color: orange;
+  text-decoration: none;
+}
