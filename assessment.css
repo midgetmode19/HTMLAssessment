@@ -14,6 +14,12 @@ td {
     text-align: center;
     border-style: ridge;
 }
+tr:nth-child(even) {
+  background-color: lightyellow;
+}
+tr:nth-child(odd) {
+  background-color: lightblue;
+}
 li {
   list-style-type: square;
 }
@@ -42,13 +48,17 @@ body>ul>li:last-child{
 } */
 img {
   /* display: none; */
-  width: 170px;
+  width: 190px;
   height: 200px;
   opacity: .3;
   position: absolute;
-  down: 80px;
-  left: 80px;
+  down: 70px;
+  left: 40px;
+  z-index: -1;
 }
-body>ul>li>ul>li>ol>li:first-child{
+/* ul#teamRoster>li>ul>li>ol>li:first-child {
+  font-weight: bold;
+} */
+ul#teamRoster ol>li:first-child {
   font-weight: bold;
 }
